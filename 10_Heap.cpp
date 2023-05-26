@@ -38,7 +38,7 @@ void max_heapify(int *a,int i,int n)
         }
     }
     a[j/2] = temp;
-    return;
+    // return;
 }
 void build_minheap(int *a, int n)
 {
@@ -81,6 +81,7 @@ int main()
    			 {
         			cout<<a[i]<<endl;
     			 }
+                 cout<<"The smallest element is "<<a[1]<<endl;
     			 break;
     		case 2:
     			build_maxheap(a, n);

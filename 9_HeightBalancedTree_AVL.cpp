@@ -99,7 +99,8 @@ node *tree::Rotate_Right(node*x)
 
 node *tree::Rotate_Left(node*T)
 {
-    node*temp;
+    node *temp;
+   
     temp=T->right;
     T->right=temp->left;
     temp->left=T;
